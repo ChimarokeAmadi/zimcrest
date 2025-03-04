@@ -18,7 +18,7 @@ This project is a **Job Match Dashboard** built using **Next.js, React, Tailwind
 - **Styling:** Tailwind CSS
 - **State Management:** Context API
 - **API Handling:** Fetched from JSON file
-- **Bonus:** TypeScript for type safety
+- **Scripting:** TypeScript for type safety
 
 ## Installation
 
