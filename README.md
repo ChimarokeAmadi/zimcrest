@@ -23,36 +23,30 @@ This project is a **Job Match Dashboard** built using **Next.js, React, Tailwind
 ## Installation
 
 1. Clone the repository:
-   ```sh
    git clone https://github.com/your-repo/job-match-dashboard.git
    cd job-match-dashboard
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
+
+2. Start the development server:
    npm run dev
-   ```
-4. Open the app in your browser:
-   ```sh
+
+3. Open the app in your browser:
+
    http://localhost:3000
-   ```
 
 ## Project Structure
 
-```
 /src
-  ├── app
-  │   ├── components
-  │   │   ├── JobList.tsx
-  │   │   ├── JobDetails.tsx
-  │   ├── context
-  │   │   ├── JobContext.tsx
-  ├── pages
-  │   ├── index.tsx
-```
+├── app
+│ ├── components
+│ │ ├── JobList.tsx
+│ │ ├── JobDetails.tsx
+│ ├── Jobs
+│ │ ├── Jobs.ts
+│ ├── context
+│ │ ├── JobContext.tsx
+│ ├── globals.css
+│ ├── layout.tsx
+│ ├── page.tsx
 
 ## Usage
 
@@ -66,7 +60,7 @@ This project is a **Job Match Dashboard** built using **Next.js, React, Tailwind
 ## API Handling
 
 - Job data is fetched from a mock API (JSON file).
-- User skills are predefined and compared with job requirements to calculate match scores.
+- User skills and match scores are predefined in the Mock API provided.
 
 ## License
 
@@ -74,4 +68,4 @@ This project is open-source. Feel free to modify and use it as needed!
 
 ---
 
-Developed by Chimaroke Amadi.
+Developed by Chimaroke Amadi ✅.
