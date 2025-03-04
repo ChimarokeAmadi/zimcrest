@@ -23,8 +23,12 @@ This project is a **Job Match Dashboard** built using **Next.js, React, Tailwind
 ## Installation
 
 1. Clone the repository:
+
+   ```
    git clone https://github.com/your-repo/job-match-dashboard.git
    cd job-match-dashboard
+
+   ```
 
 2. Start the development server:
    npm run dev
@@ -35,18 +39,20 @@ This project is a **Job Match Dashboard** built using **Next.js, React, Tailwind
 
 ## Project Structure
 
+```
 /src
-├── app
-│ ├── components
-│ │ ├── JobList.tsx
-│ │ ├── JobDetails.tsx
-│ ├── Jobs
-│ │ ├── Jobs.ts
-│ ├── context
-│ │ ├── JobContext.tsx
-│ ├── globals.css
-│ ├── layout.tsx
-│ ├── page.tsx
+  ├── app
+  │   ├── components
+  │   │   ├── JobList.tsx
+  │   │   ├── JobDetails.tsx
+  │   ├── Jobs
+  │   │   ├── Jobs.ts
+  │   ├── context
+  │   │   ├── JobContext.tsx
+  │   ├── globals.css
+  │   ├── layout.tsx
+  │   ├── page.tsx
+```
 
 ## Usage
 
