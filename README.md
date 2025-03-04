@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Match Dashboard
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is a **Job Match Dashboard** built using **Next.js, React, Tailwind CSS and Typescript**. It allows users to view job recommendations, visualize match scores, and apply for jobs. The project demonstrates **API handling, state management using Context API, and UI/UX best practices**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- **Job List Component:** Displays job recommendations with match scores.
+- **Match Score Visualization:** Uses a progress bar to indicate match percentage with color coding.
+- **Job Details Component:** Opens a modal with detailed job information.
+- **Apply Now Button:** Mock functionality to simulate job applications.
+- **Responsive Design:** Adapts seamlessly across devices.
+
+## Technologies Used
+
+- **Frontend Framework:** Next.js (React)
+- **Styling:** Tailwind CSS
+- **State Management:** Context API
+- **API Handling:** Fetched from JSON file
+- **Bonus:** TypeScript for type safety
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/job-match-dashboard.git
+   cd job-match-dashboard
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open the app in your browser:
+   ```sh
+   http://localhost:3000
+   ```
+
+## Project Structure
+
+```
+/src
+  ├── app
+  │   ├── components
+  │   │   ├── JobList.tsx
+  │   │   ├── JobDetails.tsx
+  │   ├── context
+  │   │   ├── JobContext.tsx
+  ├── pages
+  │   ├── index.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Click on a job to view its details in a modal.
+- Match scores are color-coded:
+  - **Green (80%+)** – Strong match
+  - **Yellow (50-79%)** – Medium match
+  - **Red (<50%)** – Weak match
+- The Apply button is a mock function; missing skills trigger an upskilling alert.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## API Handling
 
-## Learn More
+- Job data is fetched from a mock API (JSON file).
+- User skills are predefined and compared with job requirements to calculate match scores.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is open-source. Feel free to modify and use it as needed!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed by Chimaroke Amadi.
